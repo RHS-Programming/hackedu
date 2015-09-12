@@ -1,6 +1,6 @@
 # Remote Control
 
-The objective of this workshop is to learn to wield powerful APIs
+The objective of this workshop is to learn to wield powerful [APIs](http://www.quora.com/What-is-an-API)
 with minimal code.
 
 ## Partners
@@ -28,7 +28,7 @@ _**Don't forget the parentheses commas, and quotation marks.**_
 
 > ![](img/demo_1.gif)
 
-This code call the phone number `555-555-5555` and say the message
+This code calls the phone number `555-555-5555` and say the message
 `Gossip Girl here, your one and only.` We don't want that.
 
 Change `555-555-5555` to your own phone number. Feel free to change the
@@ -82,7 +82,7 @@ Here is an outline of what you'll learn on the way:
 3. [Call a phone when a button is clicked](#call-a-phone-when-a-button-is-clicked)
 
 If you're more advanced, feel free to skip this section and go to the next.
-Do make sure that you [create a JS Bin account](#saving-our-work) first though.
+Do make sure that you create a JS Bin account first though.
 
 ### Part II
 
@@ -96,7 +96,7 @@ We can break the tools into two categories:
 
 **Actions**
 
-Actions are, well, just actions:
+Actions are just actions:
 
 - send a text message (addressed above)
 - call a phone and have a computer voice say something (addressed above)
@@ -140,7 +140,7 @@ message too.
 
 > ![](img/text_1.gif)
 
-Go ahead an click "Run" again.
+Go ahead and click "Run" again.
 
 > ![](img/text_2.gif)
 
@@ -297,7 +297,7 @@ In the HTML let's add another button by writing:
 
 ##### Adding an id to the button
 
-Then we need to give this button some id so we can refer to it by it's id in the
+Then we need to give this button some id so we can refer to it by its id in the
 JavaScript.
 
 ```html
@@ -441,14 +441,14 @@ First include this javascript library at the bottom of the page:
 
 > ![](img/add_wand.gif)
 
-Add then add this code in the JavaScript
+Then add this code in the JavaScript
 
 ```js
 Wand.threshold = 5;
 Wand.onWave = function() {
-  alert("Wand Waved")
+  alert("Wand Waved");
   // INSERT CODE HERE YOU WANT TO RUN WHEN YOU HAVE THE WAND
-}
+};
 ```
 
 > ![](img/wand_setup.gif)
