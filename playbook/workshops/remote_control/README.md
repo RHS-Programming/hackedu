@@ -388,7 +388,7 @@ This website is responsive so let's open it on your phone.
 
 Just click "Share" and then "Output only" to get the URL
 
-> ![](img/http://cl.ly/image/3o2S2g0X380H)
+> ![](img/responsive.gif)
 
 Then type in the URL into your mobile browser. (You can also be clever and
 write a line of code to send the URL to your phone with a text message).
