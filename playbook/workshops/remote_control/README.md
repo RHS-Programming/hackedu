@@ -82,7 +82,7 @@ Here is an outline of what you'll learn on the way:
 3. [Call a phone when a button is clicked](#call-a-phone-when-a-button-is-clicked)
 
 If you're more advanced, feel free to skip this section and go to the next.
-Do make sure that you [create a JS Bin account](#saving-our-work) first though.
+Do make sure that you create a JS Bin account first though.
 
 ### Part II
 
@@ -446,9 +446,9 @@ Then add this code in the JavaScript
 ```js
 Wand.threshold = 5;
 Wand.onWave = function() {
-  alert("Wand Waved")
+  alert("Wand Waved");
   // INSERT CODE HERE YOU WANT TO RUN WHEN YOU HAVE THE WAND
-}
+};
 ```
 
 > ![](img/wand_setup.gif)
