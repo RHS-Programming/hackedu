@@ -15,7 +15,7 @@ text.
 
 Ready?
 
-Open [this JS Bin](http://jsbin.com/turojo/5/edit?js,console).
+Open [this JS Bin](http://jsbin.com/turojo/11/edit?js,console).
 
 JS Bin is a website to easily write code for websites.
 
@@ -223,7 +223,7 @@ Now let's make this work when I press a real button on a website!
 
 #### Trying it
 
-Go ahead and open up [this new JS Bin](http://jsbin.com/fawuda/33/edit?html,js,console,output).
+**IMPORTANT:** Go ahead and open up [this new JS Bin](http://jsbin.com/fawuda/59/edit?html,js,console,output).
 
 There are 4 panels now:
 
@@ -395,7 +395,7 @@ write a line of code to send the URL to your phone with a text message).
 
 ### The final code
 
-Here's what [my code looks like](http://jsbin.com/fawuda/35/edit?html,css,js,console,output) right now.
+Here's what [my code looks like](http://jsbin.com/fawuda/60/edit?html,css,js,console,output) right now.
 
 ## Part II
 
@@ -407,7 +407,7 @@ Here's what [my code looks like](http://jsbin.com/fawuda/35/edit?html,css,js,con
 Twilio.callAndPlay("555-555-5555", "http://a.tumblr.com/tumblr_lie8ewfdbO1qzbwpvo1.mp3");
 ```
 
-[JS Bin](http://jsbin.com/fawuda/36/edit?js,console)
+[JS Bin](http://jsbin.com/fawuda/61/edit?js,console)
 
 (don't forget to change the phone number and click the "run" button)
 
@@ -418,7 +418,7 @@ var audio = new Audio("http://a.tumblr.com/tumblr_lie8ewfdbO1qzbwpvo1.mp3");
 audio.play();
 ```
 
-[JS Bin](http://jsbin.com/fawuda/37/edit?js,console)
+[JS Bin](http://jsbin.com/fawuda/edit?js,console)
 
 (don't forget to change the phone number and click the "run" button)
 
@@ -433,7 +433,8 @@ with a button press first before it can play.
 
 When the mobile phone is waved like a magic wand, have it trigger something
 
-First include this javascript library at the bottom of the page:
+First include this javascript library at the bottom of the HTML page in an
+existing JS Bin:
 
 ```html
 <script type="text/javascript" src="//bit.ly/wand_js"></script>
@@ -469,6 +470,8 @@ Wand.threshold = 20;
 
 
 #### When you receive a text message
+
+Using an existing JS Bin.
 
 ```js
 Twilio.listenForMessages(function(data) {
